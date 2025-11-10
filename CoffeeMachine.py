@@ -93,9 +93,7 @@ The coffee machine has:
         print(f'I gave you {cash}$')
         
         
-# this will be the program's main class varible for machine content
-# 400 ml of water, 540 ml of milk, 120 g of coffee beans, 9 disposable cups, $550 in cash.
-# def __int__(self, water, milk, beans, cups, cash):
+
 machine = CoffeeMachine(400, 540, 120, 9, 550)
 
 while True:
