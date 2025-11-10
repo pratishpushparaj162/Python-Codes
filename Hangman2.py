@@ -1,7 +1,6 @@
 import random
 from itertools import islice
 
-
 def nth_index(iterable, value, n):
     matches = (idx for idx, val in enumerate(iterable) if val == value)
     return next(islice(matches, n-1, n), None)
