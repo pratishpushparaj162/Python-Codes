@@ -36,7 +36,7 @@ class TicTacToe:
         x_win = False
         o_win = False
 
-        # Check rows and columns
+        
         for i in range(self.size):
             row = self.field[i]
             column = [row[i] for row in self.field]
