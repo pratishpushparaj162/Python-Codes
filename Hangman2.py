@@ -48,6 +48,7 @@ def game():
 
 print("H A N G M A N")
 s=""
+
 while(s!=exit):
     s=input('Type "play" to play the game, "exit" to quit:')
     if s=="play":
