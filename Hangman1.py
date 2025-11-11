@@ -44,6 +44,7 @@ def game():
     else:
         print("You are hanged!")
 
+
 print("H A N G M A N")
 s=input('Type "play" to play the game, "exit" to quit:')
 if s=="play":
