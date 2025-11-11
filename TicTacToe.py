@@ -43,7 +43,7 @@ class TicTacToe:
             x_win = x_win or self.check_win(row, Symbol.x) or self.check_win(column, Symbol.x)
             o_win = o_win or self.check_win(row, Symbol.o) or self.check_win(column, Symbol.o)
 
-            # Check diagonals
+           
         diag_1 = [self.field[i][i] for i in range(self.size)]
         diag_2 = [self.field[self.size - 1 - i][i] for i in range(self.size - 1, -1, -1)]
         x_win = x_win or self.check_win(diag_1, Symbol.x) or self.check_win(diag_2, Symbol.x)
