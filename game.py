@@ -19,6 +19,7 @@ def game(a, b):
          elif b == "s":
             return 1
 
+
 randNo = random.randint(1, 3)
 print(randNo)
 if randNo == 1:
