@@ -12,6 +12,6 @@ def get_state_id(state):
         if i["state_name"] == state:
             print(i["state_id"])
             break
-
+ 
 state = input("Enter the state: ")
 get_state_id(state)
