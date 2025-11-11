@@ -3,7 +3,6 @@ class CoffeeMachine:
     def __init__(self, water, milk, beans, cups, cash):
         self.contents = {'water': water, 'milk': milk, 'beans': beans, 'cups': cups, 'cash': cash}
         
-        
     def take_action(self, action):
         
         if action == 'buy':
